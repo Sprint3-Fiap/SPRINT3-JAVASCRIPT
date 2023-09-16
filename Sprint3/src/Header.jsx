@@ -8,7 +8,7 @@ return (
     <div className="container-fluid">
       <div className="logo-container">
         <img src="/src/assets/Images/icons8-sprinkler-64.png" alt="Logo da AquaFlora" className="logo-img my-1" />
-        <a className="navbar-brand logo-menu" href="">Aqua Flora</a>
+        <h1>Aqua Flora</h1>
       </div>
       <button className="navbar-toggler ml-auto btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,6 +20,9 @@ return (
             <a className="nav-link" aria-current="page" href="#">Sobre nós</a>
           </li>
           <li className="nav-item">
+            <a className="nav-link" href="#">Problema</a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="#">Projeto</a>
           </li>
           <li className="nav-item">
@@ -29,9 +32,8 @@ return (
             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">Projeto IBM</a>
             <ul className="dropdown-menu custom-dropdown">
-              <li><a className="dropdown-item" href="#">Problema</a></li>
-              <li><a className="dropdown-item" href="#">Impacto</a></li>
               <li><a className="dropdown-item" href="#">Áreas verdes</a></li>
+              <li><a className="dropdown-item" href="#">Impacto</a></li>
             </ul>
           </li>
         </ul>

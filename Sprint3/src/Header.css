@@ -1,13 +1,18 @@
 header {
-    background-color: #e5e0e0;
-    box-shadow: none;
+    background-color: #f2f8fb;
+
   }
   
+header h1{
+  font-size: 25px ;
+}
 
 .logo-img {
-  width: 50px; 
+  width: 45px; 
   height: auto;
 }
+
+
 .logo-container {
   display: flex;
   flex-direction: column;
@@ -17,5 +22,5 @@ header {
 }
 
 .custom-dropdown{
-  background-color:#e5e0e0 ;
+  background-color:#f2f8fb ;
 }
