@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './Header'
 import Footer from './Footer'
 import Body from './Body';
+import Contato from './Contato';
 
 function App() {
   
@@ -14,7 +15,9 @@ function App() {
   <div>
     <Header />
     <Body />
+    <Contato />
     <Footer />
+
   </div>
   )
 }

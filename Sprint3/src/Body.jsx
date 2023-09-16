@@ -8,7 +8,7 @@ return (
 <body>
     <div className="body-container">
         <article class="row p-5 d-flex bg-blue">
-            <section class="col-md-4 my-4">
+            <section id="home" class="col-md-4 my-4">
                 <h1 class="my-5"> Bem-vindo !</h1>
                 <p class="my-4">Seja muito bem-vindo ao Projeto Acqua Flora. Nosso projeto é focado na sustentabilidade
                     e no cuidado com as áreas verdes da cidade de São Paulo.</p>
@@ -21,7 +21,7 @@ return (
 
         {/* Sobre nos */}
         <div class="row p-5 d-flex">
-            <section class="col-md-6 my-4">
+            <section id="sobre-nos" class="col-md-6 my-4">
                 <h1 class="my-5"> Sobre nós</h1>
                 <h2>Quem somos</h2>
                 <p class="my-4">Somos uma empresa preocupada com o Meio Ambiente e com a Biodiversidade, e buscamos
@@ -37,8 +37,8 @@ return (
         </div>
 
         {/* PROBLEMA */}
-        <div class="row p-5 d-flex bg-blue">
-            <div class="col-md-6">
+        <div class="row  p-5 d-flex bg-blue">
+            <div id="problema" class="col-md-6">
                 <img src="/src/assets/Images/People-sitting-in-park2.png" alt="Pessoas no parque" class="img-fluid" />
             </div>
             <div class="col-md-6">
@@ -57,7 +57,7 @@ return (
         </div>
         {/* Projeto */}
         <div class="row p-5 d-flex">
-            <section class="col-md-6 my-4">
+            <section id="projeto" class="col-md-6 my-4">
                 <img src="/src/assets/Images/rectangle 7.png" alt="Pessoa no parque" class="img-fluid" />
             </section>
             <section class="col-md-6 my-4">
@@ -76,10 +76,10 @@ return (
 
         {/* IBM */}
         <div class="row p-5 d-flex bg-blue">
-            <section class="col-md-6 my-4">
+            <section id="ibm" class="col-md-6 my-5">
                 <img src="/src/assets/Images/Rectangle 4.png" alt="Imagem de água" class="img-fluid" />
             </section>
-            <section class="col-md-6 my-4">
+            <section class="col-md-6 my-5">
                 <h1 class=""> Problema IBM </h1>
                 <p class="my-5">O projeto passado pela IBM está voltado para o conceito de “Smart Cities”. Nós, como
                     grupo e empresa, deveríamos criar uma solução para algum problema dentro das nossas cidades.Pensando
@@ -88,7 +88,7 @@ return (
             </section>
         </div>
         {/*area verde */}
-        <div class="container my-5">
+        <div id="areas"class="container p-5 my-5">
             <div class="title-container my-5">
                 <h1>Áreas Verdes Urbanas</h1>
                 <h2>Qual sua importância?</h2>
@@ -130,37 +130,29 @@ return (
             </div>
         </div>
         {/* Impactos */}
-        <div class="container">
+        <div  id="impacto"class="container p-5">
             <h1 class="my-4">Impactos</h1>
-            <div class="row bg-blue">
+            <div class="row bg-blue p-5">
                 <div class="col-md-6 my-5">
                     <h3 class="mb-4">Impactos negativos</h3>
-                        <ul>
-                            <li>Aumento da poluição.</li>
-                            <li>Aumento significativo do desperdício de água.</li>
-                            <li>Dificuldade no monitoramento e na manutenção das áreas verdes de São Paulo.</li>
-                            <li>Parques, praças e jardins públicos sem o devido cuidado necessário.</li>
+                    <ul>
+                        <li>Aumento da poluição.</li>
+                        <li>Aumento significativo do desperdício de água.</li>
+                        <li>Dificuldade no monitoramento e na manutenção das áreas verdes de São Paulo.</li>
+                        <li>Parques, praças e jardins públicos sem o devido cuidado necessário.</li>
                     </ul>
                 </div>
                 <div class="col-md-6 my-5">
                     <h3 class="mb-4">Impactos positivos</h3>
-                        <ul>
-                            <li>Maior cuidado com os parques, praças e jardins.</li>
-                            <li>Menor desperdício de água.</li>
-                            <li>Melhora no ar.</li>
-                            <li>Melhora da qualidade de vida dos moradores da cidade.</li>
-                            <li>Maior cuidado com a biodiversidade.</li>
+                    <ul>
+                        <li>Maior cuidado com os parques, praças e jardins.</li>
+                        <li>Menor desperdício de água.</li>
+                        <li>Melhora no ar.</li>
+                        <li>Melhora da qualidade de vida dos moradores da cidade.</li>
+                        <li>Maior cuidado com a biodiversidade.</li>
                     </ul>
                 </div>
             </div>
-        </div>
-
-
-
-
-        <div className="container bg-blue">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco...</p>
         </div>
     </div>
 </body>
